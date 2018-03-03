@@ -1,4 +1,4 @@
-package com.tacstp.model;
+package com.dl.incose.model;
 
 import com.google.gson.annotations.Expose;
 import com.googlecode.objectify.annotation.Entity;

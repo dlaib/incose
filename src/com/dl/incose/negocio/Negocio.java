@@ -1,10 +1,10 @@
-package com.tacstp.negocio;
+package com.dl.incose.negocio;
 
 import java.util.Set;
 
-import com.tacstp.model.Recomendacion;
-import com.tacstp.model.Usuario;
-import com.tacstp.model.Viaje;
+import com.dl.incose.model.Recomendacion;
+import com.dl.incose.model.Usuario;
+import com.dl.incose.model.Viaje;
 import com.tacstp.rest.model.Itinerario;
 import com.tacstp.rest.model.RecomendacionAmigo;
 /**

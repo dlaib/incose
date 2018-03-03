@@ -1,4 +1,4 @@
-package com.tacstp.test;
+package com.dl.incose.test;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -9,6 +9,11 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+import com.dl.incose.model.Amigo;
+import com.dl.incose.model.Recomendacion;
+import com.dl.incose.model.Segmento;
+import com.dl.incose.model.Usuario;
+import com.dl.incose.model.Viaje;
 import com.google.appengine.tools.development.testing.LocalDatastoreServiceTestConfig;
 import com.google.appengine.tools.development.testing.LocalMemcacheServiceTestConfig;
 import com.google.appengine.tools.development.testing.LocalServiceTestHelper;
@@ -18,11 +23,6 @@ import com.googlecode.objectify.util.Closeable;
 import com.tacstp.dao.UsuarioDAO;
 import com.tacstp.dao.UsuarioDAODatastore;
 import com.tacstp.exceptions.TacsException;
-import com.tacstp.model.Amigo;
-import com.tacstp.model.Recomendacion;
-import com.tacstp.model.Segmento;
-import com.tacstp.model.Usuario;
-import com.tacstp.model.Viaje;
 import com.tacstp.rest.model.RecomendacionAmigo;
 
 import static org.junit.Assert.assertEquals;

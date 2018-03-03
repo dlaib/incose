@@ -1,9 +1,9 @@
-package com.tacstp.test;
+package com.dl.incose.test;
 
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.tacstp.services.ServicioWebservicex;
+import com.dl.incose.services.ServicioWebservicex;
 
 public class WebservicexTest {
 

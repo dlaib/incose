@@ -1,7 +1,8 @@
-package com.tacstp.services;
+package com.dl.incose.services;
 
 import java.util.logging.Logger;
 
+import com.dl.incose.model.Viaje;
 import com.restfb.DefaultFacebookClient;
 import com.restfb.FacebookClient;
 import com.restfb.FacebookClient.AccessToken;
@@ -10,7 +11,6 @@ import com.restfb.exception.FacebookOAuthException;
 import com.restfb.types.FacebookType;
 import com.tacstp.exceptions.FacebookAuthException;
 import com.tacstp.exceptions.FacebookException;
-import com.tacstp.model.Viaje;
 /**
  * @author tacstp
  * 

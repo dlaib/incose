@@ -1,4 +1,4 @@
-package com.tacstp.test;
+package com.dl.incose.test;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -7,9 +7,9 @@ import java.util.List;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.tacstp.model.Segmento;
-import com.tacstp.model.Viaje;
-import com.tacstp.services.ServicioFB;
+import com.dl.incose.model.Segmento;
+import com.dl.incose.model.Viaje;
+import com.dl.incose.services.ServicioFB;
 
 public class FBTest {
 

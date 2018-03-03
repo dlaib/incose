@@ -1,4 +1,4 @@
-package com.tacstp.services;
+package com.dl.incose.services;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -6,13 +6,13 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
+import com.dl.incose.model.Aeropuerto;
+import com.dl.incose.model.Segmento;
+import com.dl.incose.model.Viaje;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import com.tacstp.model.Aeropuerto;
-import com.tacstp.model.Segmento;
-import com.tacstp.model.Viaje;
 import com.tacstp.rest.model.Itinerario;
 
 public class RespuestaDespegarParseada {

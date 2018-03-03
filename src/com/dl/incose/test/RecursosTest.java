@@ -1,4 +1,4 @@
-package com.tacstp.test;
+package com.dl.incose.test;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -11,18 +11,18 @@ import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
 
+import com.dl.incose.model.Recomendacion;
+import com.dl.incose.model.Segmento;
+import com.dl.incose.model.Usuario;
+import com.dl.incose.model.Viaje;
+import com.dl.incose.services.ServicioDespegar;
+import com.dl.incose.services.ServicioFB;
 import com.google.gson.GsonBuilder;
 import com.tacstp.app.AppContext;
 import com.tacstp.dao.UsuarioDAOEnMemoria;
-import com.tacstp.model.Recomendacion;
-import com.tacstp.model.Segmento;
-import com.tacstp.model.Usuario;
-import com.tacstp.model.Viaje;
 import com.tacstp.rest.RecursoUsuario;
 import com.tacstp.rest.RecursoViaje;
 import com.tacstp.rest.model.RecomendacionAmigo;
-import com.tacstp.services.ServicioDespegar;
-import com.tacstp.services.ServicioFB;
 
 public class RecursosTest {
 

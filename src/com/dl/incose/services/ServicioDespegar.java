@@ -1,8 +1,8 @@
-package com.tacstp.services;
+package com.dl.incose.services;
 
 import java.util.Set;
 
-import com.tacstp.model.Viaje;
+import com.dl.incose.model.Viaje;
 import com.tacstp.rest.model.Itinerario;
 
 public class ServicioDespegar extends HTTPService implements IServicioDespegar {

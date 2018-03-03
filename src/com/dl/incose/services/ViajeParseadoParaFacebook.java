@@ -1,10 +1,10 @@
-package com.tacstp.services;
+package com.dl.incose.services;
 
 import java.util.Iterator;
 import java.util.List;
 
-import com.tacstp.model.Segmento;
-import com.tacstp.model.Viaje;
+import com.dl.incose.model.Segmento;
+import com.dl.incose.model.Viaje;
 
 public class ViajeParseadoParaFacebook {
 	
